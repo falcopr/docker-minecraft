@@ -23,6 +23,7 @@ services:
       PVP: "true"
       VERSION: "1.13.1"
       TYPE: "SPIGOT"
+      MEMORY: "2G"
     restart: always
 
 volumes:
