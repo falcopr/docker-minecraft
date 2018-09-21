@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  minecraft:
+    image: itzg/minecraft-server
+    ports:
+      - "25565:25565"
+    volumes:
+      - "mc:/data"
+    environment:
+      EULA: "TRUE"
+      CONSOLE: "false"
+      ENABLE_RCON: "false"
+      ENABLE_QUERY: "false"
+      MAX_PLAYERS: 20
+      OPS: "DocRiddles,ShrimpMaster"
+      DIFFICULTY: "normal"
+      SNOOPER_ENABLED: "false"
+      VIEW_DISTANCE: 12
+      SEED: 747624897180923234
+      MODE: "survival"
+      MOTD: "Vanilla Server for Hokage-sama"
+      PVP: "true"
+      VERSION: "1.13.1"
+      TYPE: "SPIGOT"
+    restart: always
+
+volumes:
+  mc:
