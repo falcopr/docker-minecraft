@@ -24,7 +24,7 @@ services:
       PVP: "true"
       VERSION: "1.13.1"
       TYPE: "SPIGOT"
-      MEMORY: "4G"
+      MEMORY: "8G"
     restart: always
 
 volumes:
