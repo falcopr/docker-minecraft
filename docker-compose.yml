@@ -14,7 +14,7 @@ services:
       ENABLE_RCON: "false"
       ENABLE_QUERY: "false"
       MAX_PLAYERS: 20
-      OPS: "DocRiddles,ShrimpMaster"
+      OPS: "User1,User2"
       DIFFICULTY: "normal"
       SNOOPER_ENABLED: "false"
       VIEW_DISTANCE: 12
